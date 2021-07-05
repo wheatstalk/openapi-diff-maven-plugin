@@ -30,6 +30,7 @@ jobs:
             --no-transfer-progress \
             --batch-mode \
             -Dgpg.passphrase="${{ secrets.MAVEN_GPG_PRIVATE_KEY_PASSPHRASE }}" \
+            -Prelease-noninteractive \
             release:prepare release:perform
         env:
           MAVEN_USERNAME: ${{ secrets.MAVEN_USERNAME }}
