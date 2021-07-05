@@ -1,4 +1,4 @@
-package ca.wheatstalk;
+package ca.wheatstalk.openapidiff;
 
 import org.apache.maven.plugin.MojoExecutionException;
 import org.junit.jupiter.api.Test;
