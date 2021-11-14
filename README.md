@@ -1,5 +1,10 @@
 # OpenAPI Diff Maven Plugin
 
+> DEPRECATION NOTICE: The features of this Maven plugin have been integrated
+> into [openapi-diff][upstream]. Development will continue in the upstream.
+
+[upstream]: https://github.com/OpenAPITools/openapi-diff#maven-plugin
+
 This Maven plugin diffs OpenAPI v3 specifications to tell you what has changed.
 It has an optional setting that allows you to raise an error when a change
 has broken backward compatibility. OpenAPI v3 diffing is enabled by using the
